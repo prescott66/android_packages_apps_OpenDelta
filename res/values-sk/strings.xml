@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenDelta</string>
+    <string name="title">Systémové aktualizácie</string>
+
+    <string name="action_networks">Siete</string>
+    <string name="title_networks">Siete pre automatickú aktualizáciu</string>
+    <string name="network_2g">2G</string>
+    <string name="network_3g">3G</string>
+    <string name="network_4g">4G</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_ethernet">Ethernet</string>
+    <string name="network_unknown">Iná</string>
+
+    <string name="action_about">O programe</string>
+
+    <string name="about_content"><![CDATA[
+        Autorské práva &copy; _COPYRIGHT_OPENDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+        <br>
+        Pôvodne vytvorené pre <b>Projekt OmniROM</b><br>
+        <br>
+        Licencované za podmienok <b>GNU General Public License, verzie 3.0 (GPLv3)</b><br>
+        <br>
+        Kódovanie Delta založené na <b>xdelta</b>, autorské práva &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
+    ]]></string>
+
+    <string name="state_action_none">Váš systém je aktuálny</string>
+    <string name="state_action_checking">Kontrolujú sa aktualizácie &#8230;</string>
+    <string name="state_action_checking_md5">Overuje sa súbor &#8230;</string>
+    <string name="state_action_searching">Vyhľadávajú sa súbory &#8230;</string>
+    <string name="state_action_searching_md5">Overuje sa súbor &#8230;</string>
+    <string name="state_action_downloading">Preberá sa &#8230;</string>
+    <string name="state_action_applying">Aplikujú sa záplaty &#8230;</string>	
+    <string name="state_action_applying_patch">Aplikujú sa záplaty &#8230;</string>
+    <string name="state_action_applying_md5">Overuje sa súbor &#8230;</string>
+    <string name="state_action_ready">Je dostupná aktualizácia</string>
+    <string name="state_error_disk_space">Nedostatok voľného miesta !</string>
+    <string name="state_error_unknown">Neznáma chyba</string>
+
+    <string name="error_disk_space_sub" formatted="false">%d MiB dostupných, %d MiB požadovaných</string>
+
+    <string name="notify_update_available">Je dostupná aktualizácia</string>
+    <string name="notify_checking">Kontrolujú sa aktualizácie &#8230;</string>
+
+    <string name="last_checked" formatted="false">Posledná kontrola dňa %s o %s</string>
+    <string name="last_checked_never">Zatiaľ sa nikdy nekontrolovali aktualizácie. Chcete ich skontrolovať ?</string>
+
+    <string name="button_check_now">Skontrolovať teraz &#8230;</string>
+    <string name="button_flash_now">Nainštalovať teraz</string>
+    
+    <!-- updates from 2013/12/18 -->
+    
+    <string name="action_secure_mode">Bezpečnosť</string>
+    
+    <string name="secure_mode_enabled_title">Bezpečný rezim: poovlený</string>
+    <string name="secure_mode_enabled_description"><![CDATA[Pred inštalovaním aktualizácie sa overí kryptografický podpis na potvrdenie pôvodu. Žiadne dodatočné aktualizácie nebudú nainštalované. Tento režim je kompatibilný iba s <b>TWRP</b>.]]></string>
+
+    <string name="secure_mode_disabled_title">Bezpečný režim: zakázaný</string>
+    <string name="secure_mode_disabled_description"><![CDATA[Ak sú dostupné dodatočné aktualizácie, budú nainštalované. Berte na vedomie, že akýkoľvek (škodlivý) balík softvéru môže predstierať tieto aktualizácie a získať tak plnú kontorlu nad systémom. Je to na zváženie.]]></string>
+    
+    <string name="recovery_notice_title">Oznámenie</string>
+    <string name="recovery_notice_description_secure"><![CDATA[Inštalovanie aktualizácií v aktuálnom režime je podporované iba v <b>TWRP</b> recovery. Pred pokračovaním sa uistite, že máte nainštalované kompatibilné recovery.]]></string>
+    <string name="recovery_notice_description_not_secure"><![CDATA[Inštalovanie aktualizácií v aktuálnom režime je oficiálne podporované iba v <b>TWRP</b> recovery. <i>Oficiálne</i> <b>CWM</b> zostavy <i>nie sú</i> podporované, ale napriek tomu niektoré <i>komunitou zostavené</i> verzie <b>CWM</b> <i>môžu</i> stále fungovať. Pred pokračovaním sa uistite, že máte nainštalované kompatibilné recovery.]]></string>
+    
+    <string name="flash_after_update_notice_title">Oznámenie</string>
+    <string name="flash_after_update_notice_description"><![CDATA[Sú dostupné dodatočné aktualizácie v priečinku <b>FlashAfterUpdate</b>, ale je povolený bezpečný režim. Ak budete pokračovať, tieto dodatočné aktualizácie <b>nebudú</b> nainštalované.]]></string>    
+</resources>
